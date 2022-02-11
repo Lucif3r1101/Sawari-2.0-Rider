@@ -1,4 +1,4 @@
-package com.app.sawari20;
+package com.app.sawaririder;
 
 import org.junit.Test;
 

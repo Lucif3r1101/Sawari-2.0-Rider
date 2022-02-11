@@ -71,6 +71,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12790283533:android:949aeafe83b90869dd4444",
+        "android_client_info": {
+          "package_name": "com.app.sawaririder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12790283533-9kbq153u6kpql4g19st1di3pjfq21a2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0qITyif5tBH18ag9dv9GGscGWcG7_8F4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12790283533-9kbq153u6kpql4g19st1di3pjfq21a2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

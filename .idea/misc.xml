@@ -3,7 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Project Home/Sawari202/app/src/main/res/drawable/side_nav_bar.xml" value="0.14114583333333333" />
+        <entry key="..\:/Project Home/Sawari202/app/src/main/res/layout/activity_home.xml" value="0.11277173913043478" />
+        <entry key="..\:/Project Home/Sawari202/app/src/main/res/layout/activity_maps.xml" value="0.11277173913043478" />
         <entry key="..\:/Project Home/Sawari202/app/src/main/res/layout/activity_splash_activity.xml" value="0.12318840579710146" />
+        <entry key="..\:/Project Home/Sawari202/app/src/main/res/layout/app_bar_home.xml" value="0.11277173913043478" />
+        <entry key="..\:/Project Home/Sawari202/app/src/main/res/layout/content_home.xml" value="0.11979166666666667" />
+        <entry key="..\:/Project Home/Sawari202/app/src/main/res/layout/fragment_home.xml" value="0.11277173913043478" />
+        <entry key="..\:/Project Home/Sawari202/app/src/main/res/layout/layout_register.xml" value="0.11979166666666667" />
+        <entry key="..\:/Project Home/Sawari202/app/src/main/res/layout/layout_sign_in.xml" value="0.11979166666666667" />
+        <entry key="..\:/Project Home/Sawari202/app/src/main/res/layout/nav_header_home.xml" value="0.11277173913043478" />
+        <entry key="..\:/Project Home/Sawari202/app/src/main/res/menu/activity_main_drawer.xml" value="0.125" />
       </map>
     </option>
   </component>
