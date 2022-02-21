@@ -9,18 +9,33 @@ import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Build;
+import android.util.ArraySet;
+import android.util.Log;
 
+import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;
 
+import com.app.sawaririder.Model.DriverGeoModel;
 import com.app.sawaririder.Model.RiderModel;
 import com.app.sawaririder.R;
+import com.google.android.gms.maps.model.Marker;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class Common {
     public static final String RIDER_INFO_REFERENCE = "Riders";
     public static final String TOKEN_REFERENCE = "Token";
+    public static final String DRIVER_LOCATION_REFERENCES = "DriverLocation";
+
+    public static final String DRIVER_INFO_REFERENCE = "DriverInfo";
     public static RiderModel currentRider;
     public static final String NOTI_TITLE = "title";
     public static final String NOTI_CONTENT = "body";
+    public static Set<DriverGeoModel> driversFound = new HashSet<DriverGeoModel>();
+    public static HashMap<String, Marker> markerList = new HashMap<>();
 
     public static String buildWelcomeMessage() {
         if(Common.currentRider != null)
@@ -74,4 +89,13 @@ public class Common {
         notificationManager.notify(id, notification);
     }
 
+
+    public static String buildName(String firstName, String lastName) {
+        try {
+            return new StringBuilder(firstName).append(" ").append(lastName).toString();
+        }catch (Exception e){
+            Log.e("Name error", e.getMessage());
+        }
+        return "";
+    }
 }
